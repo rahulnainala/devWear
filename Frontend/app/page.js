@@ -10,7 +10,7 @@ export default function Home() {
             About Our Company
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Were dedicated to providing the highest quality products and
+            We&apos;re dedicated to providing the highest quality products and
             services to our customers.
           </p>
         </div>
