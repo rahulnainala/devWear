@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Essentials 3-Stripes T-Shirt",
+    "price": "₹1,799",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/5e3b5e5f5e5d4a5e8f5fae8a00e9e8f5_9366/Essentials_3-Stripes_T-Shirt_Black_GN3048_01_laydown.jpg",
+    "desc": "Classic cotton tee with signature 3-Stripes detail. Regular fit with crew neck. Soft, breathable fabric perfect for everyday wear. Machine washable."
+  },
+  {
+    "name": "Ultraboost Running Tee",
+    "price": "₹2,499",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p_9366/Ultraboost_Running_Tee_Blue_H12345_01_laydown.jpg",
+    "desc": "Performance running shirt with moisture-wicking AEROREADY technology. Lightweight and ventilated for intense workouts. Reflective details for low-light visibility."
+  },
+  {
+    "name": "Originals Oversized Tee",
+    "price": "₹2,999",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q_9366/Originals_Oversized_Tee_White_IJ6789_01_laydown.jpg",
+    "desc": "Streetwear-inspired oversized fit with dropped shoulders. 100% organic cotton with vintage wash effect. Features bold trefoil logo on chest."
+  },
+  {
+    "name": "Tiro 23 Training Top",
+    "price": "₹3,299",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9a8b7c6d5e4f3g2h1i0j9k8l7m6n5o4p_9366/Tiro_23_Training_Top_Green_KL9012_01_laydown.jpg",
+    "desc": "Football training shirt with climacool ventilation. Raglan sleeves for full mobility. Moisture-absorbing fabric with anti-odor treatment. Ideal for sports and gym."
+  },
+  {
+    "name": "Primegreen Polo Shirt",
+    "price": "₹3,799",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s_9366/Primegreen_Polo_Shirt_Navy_MN3456_01_laydown.jpg",
+    "desc": "Premium polo made with recycled materials. Structured collar with 3-button placket. Micro-pique fabric that resists wrinkles. Perfect for smart-casual occasions."
+  },
+  {
+    "name": "Designed for Gaming Tee",
+    "price": "₹2,899",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r_9366/Gaming_Tee_Black_OP7890_01_laydown.jpg",
+    "desc": "Gamer-optimized tee with 4-way stretch fabric. Temperature-regulating technology keeps you cool during long sessions. Ergonomic seams for unrestricted movement."
+  },
+  {
+    "name": "Yoga Workout Tank Top",
+    "price": "₹1,999",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t_9366/Yoga_Tank_Top_Pink_QR1234_01_laydown.jpg",
+    "desc": "Breathable tank top with built-in support. Seamless construction minimizes irritation. UPF 50+ sun protection. Ideal for yoga, pilates, or summer wear."
+  },
+  {
+    "name": "Terrex Hiking Shirt",
+    "price": "₹4,499",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9i8h7g6f5e4d3c2b1a0z9y8x7w6v5u4t_9366/Terrex_Hiking_Shirt_Beige_ST5678_01_laydown.jpg",
+    "desc": "Adventure-ready shirt with UPF 30+ protection. Quick-drying fabric with mesh ventilation panels. Multiple pockets with secure closures. Ideal for trekking and outdoor activities."
+  }
+]

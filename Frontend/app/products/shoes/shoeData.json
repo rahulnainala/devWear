@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Step N Pace Shoes",
+    "price": "₹4,999",
+    "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b6b6036a0a2c436ba5543f30348533f8_9366/STEP_N_PACE_SHOES_Black_IQ9157_01_standard.jpg",
+    "desc": "Lightweight running shoes with Cloudfoam midsole for all-day comfort. Breathable mesh upper keeps your feet cool during workouts. Perfect for jogging and gym sessions."
+  },
+  {
+    "name": "Ultraboost 22",
+    "price": "₹17,999",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/49e5514bb83e4c5d8bf5ad9100ef2815_9366/Ultraboost_22_Shoes_White_GX5459_01_standard.jpg",
+    "desc": "Premium running shoes with responsive Boost technology. Features a Primeknit+ adaptive fit upper and Continental rubber outsole for superior traction. Marathon-ready comfort."
+  },
+  {
+    "name": "NMD_R1",
+    "price": "₹12,999",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4b214d0bffbf4732a6ddaf56016aa09b_9366/NMD_R1_Shoes_Blue_IE2280_01_standard.jpg",
+    "desc": "Iconic streetwear sneakers with EVA plugs for striking style. Boost midsole delivers energy return with every step. Fashion-forward design meets urban comfort."
+  },
+  {
+    "name": "Superstar",
+    "price": "₹8,999",
+    "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ed0855435194229a525aad6009a0497_9366/Superstar_Shoes_White_EG4958_01_standard.jpg",
+    "desc": "The classic shell-toe design that started a revolution. Leather upper with rubber shell toe for durability. Timeless sneaker that works with any casual outfit."
+  },
+  {
+    "name": "4DFWD 2",
+    "price": "₹19,999",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/8d89441135144d86828cae9900c3cb21_9366/adidas_4DFWD_2_Running_Shoes_White_GX9247_01_standard.jpg",
+    "desc": "Cutting-edge running shoes with 3D-printed midsole. Designed to propel you forward with each stride. Combines data-driven design with premium materials for elite performance."
+  },
+  {
+    "name": "Ozweego",
+    "price": "₹10,999",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3a61c30192a54385af66aa7600ee99d6_9366/OZWEEGO_Shoes_Black_EE6999_07_standard.jpg",
+    "desc": "90s-inspired chunky sneakers with modern comfort. Features adiprene cushioning for shock absorption. Retro-futuristic design with mesh and synthetic leather upper."
+  }
+]
