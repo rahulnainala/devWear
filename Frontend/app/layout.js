@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           <Navigation />
         </header>
         <main>{children}</main>
-        <footer className="footer text-lg font-semibold sm:footer-horizontal footer-center bg-base-300 text-base-content p-20 pb-10 flex justify-center">
+        <footer className="footer text-lg font-light sm:footer-horizontal footer-center bg-base-300 text-base-content p-20 pb-10 flex justify-center">
           <aside>
             <p>
               Copyright © {new Date().getFullYear()} - All right reserved by

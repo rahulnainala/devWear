@@ -9,7 +9,7 @@ export const CustomCard = ({ onClick, name, price, image }) => (
     className="w-[350px] h-[350px] cursor-pointer hover:shadow-xl transition-shadow shadow-lg"
     onPress={onClick}
   >
-    <CardBody className="overflow-hidden p-0">
+    <CardBody className=" h-full overflow-hidden p-0">
       <Image
         alt={name}
         className="w-full object-cover h-[80%]"

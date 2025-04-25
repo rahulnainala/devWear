@@ -31,7 +31,7 @@ const components = [
   },
   {
     title: "Tshirts",
-    href: "/products/Tshirts",
+    href: "/products/tshirts",
     description:
       "Graphic, plain, or quirky – tees that speak your vibe loud and clear!",
   },
@@ -45,7 +45,7 @@ const components = [
 
 export default function Navigation() {
   return (
-    <div className="w-full flex justify-between items-center h-[90px] px-20">
+    <div className="w-full flex lg:justify-around sm:justify-center items-center h-[90px] px-20 sm:px-10">
       <div className="flex items-center">
         <NavigationMenu>
           <NavigationMenuList>
@@ -65,13 +65,6 @@ export default function Navigation() {
       <div className="flex items-center">
         <NavigationMenu>
           <NavigationMenuList>
-            <NavigationMenuItem>
-              <NavigationMenuLink asChild>
-                <Link href="/about" className="text-xl hover:underline">
-                  About
-                </Link>
-              </NavigationMenuLink>
-            </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuTrigger className="text-xl [&>span]:text-lg ">
                 Products

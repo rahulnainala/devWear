@@ -15,11 +15,43 @@ mongoose
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
-//get call
-app.get("/api/products", async (req, res) => {
+//get call for shoes
+app.get("/api/products/shoes", async (req, res) => {
   try {
-    const products = await item.find();
-    console.log(products);
+    const products = await item.find({ category: "shoes" });
+    res.json(products);
+  } catch (error) {
+    console.error("Error fetching products", error);
+    res.status(500).json({ error: "Failed to fetch products" });
+  }
+});
+
+//get call for pants
+app.get("/api/products/pants", async (req, res) => {
+  try {
+    const products = await item.find({ category: "pants" });
+    res.json(products);
+  } catch (error) {
+    console.error("Error fetching products", error);
+    res.status(500).json({ error: "Failed to fetch products" });
+  }
+});
+
+//get call for shirts
+app.get("/api/products/shirts", async (req, res) => {
+  try {
+    const products = await item.find({ category: "shirts" });
+    res.json(products);
+  } catch (error) {
+    console.error("Error fetching products", error);
+    res.status(500).json({ error: "Failed to fetch products" });
+  }
+});
+
+//get call for tshirts
+app.get("/api/products/tshirts", async (req, res) => {
+  try {
+    const products = await item.find({ category: "tshirts" });
     res.json(products);
   } catch (error) {
     console.error("Error fetching products", error);

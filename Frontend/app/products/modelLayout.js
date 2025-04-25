@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Modal, ModalContent } from "@heroui/modal";
 import { ShoppingCart } from "lucide-react";
@@ -12,6 +11,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
+import { Image } from "@heroui/image";
 
 const ModelLayout = ({ isOpen, setOpen, name, price, image, desc }) => {
   return (
@@ -33,11 +33,12 @@ const ModelLayout = ({ isOpen, setOpen, name, price, image, desc }) => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="relative w-full h-64 md:h-96 rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src={image}
-              alt="Product Image"
-              layout="fill"
-              objectFit="cover"
+              alt={name}
               className="transition-transform duration-300 hover:scale-105"
+              radius="lg"
+              shadow="sm"
+              src={image}
+              width="100%"
             />
           </div>
           <div className="space-y-6 space-x-2 flex flex-col">
