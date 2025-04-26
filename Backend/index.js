@@ -15,6 +15,17 @@ mongoose
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
+app.get("/api/products/productDescription/*id", async (req, res) => {
+  try {
+    const { id } = req.params;
+    const productDetails = await item.findById(id);
+    res.json(productDetails);
+  } catch (error) {
+    console.error("Error fetching products", error);
+    res.status(500).json({ error: "Failed to fetch products" });
+  }
+});
+
 //get call for shoes
 app.get("/api/products/shoes", async (req, res) => {
   try {

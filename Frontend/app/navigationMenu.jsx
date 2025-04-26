@@ -15,6 +15,8 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
+import { Button } from "@/components/ui/button";
+import { AlertDialog, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 
 const components = [
   {
@@ -105,40 +107,13 @@ export default function Navigation() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink>
-                <HoverCard>
-                  <HoverCardTrigger>
-                    <Avatar
-                      className="w-10 h-10 text-tiny"
-                      size="md"
-                      src="https://i.pravatar.cc/150?u=a04258a2462d826712d"
-                    />
-                  </HoverCardTrigger>
-                  <HoverCardContent className="w-50">
-                    <ul>
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            href="/profile"
-                            className="flex flex-row text-lg justify-start"
-                          >
-                            <User2Icon />
-                            Profile
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            href="/logout"
-                            className="flex flex-row text-lg"
-                          >
-                            <LogOutIcon /> Logout
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                    </ul>
-                  </HoverCardContent>
-                </HoverCard>
+                <Link href="/profile">
+                  <Avatar
+                    className="w-10 h-10 text-tiny"
+                    size="md"
+                    src="https://avatars.githubusercontent.com/u/43290758?v=4"
+                  />
+                </Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>

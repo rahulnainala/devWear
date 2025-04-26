@@ -1,6 +1,8 @@
+import Link from "next/link";
+import { Image } from "@heroui/image";
 import { Button } from "@/components/ui/button";
 import { Modal, ModalContent } from "@heroui/modal";
-import { ShoppingCart } from "lucide-react";
+import { ArrowUpRight, ShoppingCart } from "lucide-react";
 import {
   AlertDialog,
   AlertDialogCancel,
@@ -11,9 +13,9 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-import { Image } from "@heroui/image";
 
-const ModelLayout = ({ isOpen, setOpen, name, price, image, desc }) => {
+const ModelLayout = ({ isOpen, setOpen, name, price, image, desc, id }) => {
+  console.log("tttt", id);
   return (
     <Modal
       isOpen={isOpen}
@@ -39,6 +41,7 @@ const ModelLayout = ({ isOpen, setOpen, name, price, image, desc }) => {
               shadow="sm"
               src={image}
               width="100%"
+              style={{ transition: "opacity 0.5s ease-in-out" }}
             />
           </div>
           <div className="space-y-6 space-x-2 flex flex-col">
@@ -46,27 +49,41 @@ const ModelLayout = ({ isOpen, setOpen, name, price, image, desc }) => {
               {name}
             </h2>
             <p className="text-gray-600 text-base">{desc}</p>
-            <div className="text-xl text-gray-800 font-semibold">{price}</div>
-            <div>
-              <AlertDialog>
-                <AlertDialogTrigger>
-                  <Button className="font-medium py-3 px-8 rounded-full transition-colors duration-300">
-                    <ShoppingCart /> Buy Now
-                  </Button>
-                </AlertDialogTrigger>
-                <AlertDialogContent>
-                  <AlertDialogHeader>
-                    <AlertDialogTitle>Waiting on MongoDB</AlertDialogTitle>
-                    <AlertDialogDescription>
-                      This functionality needs Backend Server to be able to
-                      start working on this
-                    </AlertDialogDescription>
-                  </AlertDialogHeader>
-                  <AlertDialogFooter>
-                    <AlertDialogCancel>Close</AlertDialogCancel>
-                  </AlertDialogFooter>
-                </AlertDialogContent>
-              </AlertDialog>
+            <div className="text-xl text-gray-800 font-semibold">
+              ₹{price.toFixed(2)}
+            </div>
+            <div className="flex flex-row gap-3">
+              <Link href={`/products/productDescription/${id}`}>
+                <Button className="font-medium py-3 px-8 rounded-sm duration-300 hover:cursor-pointer border-1 border-gray-300">
+                  <ArrowUpRight />
+                  Product Description
+                </Button>
+              </Link>
+              <div>
+                <AlertDialog>
+                  <AlertDialogTrigger>
+                    <Button
+                      variant="secondary"
+                      className="font-medium py-3 px-8 rounded-sm duration-300 hover:cursor-pointer border-1 border-gray-300"
+                    >
+                      <ShoppingCart /> Add to Cart
+                    </Button>
+                  </AlertDialogTrigger>
+                  <AlertDialogContent>
+                    <AlertDialogHeader>
+                      <AlertDialogTitle>Working on It</AlertDialogTitle>
+                      <AlertDialogDescription>
+                        This functionality needs a full overhaul
+                      </AlertDialogDescription>
+                    </AlertDialogHeader>
+                    <AlertDialogFooter>
+                      <AlertDialogCancel className="bg-black text-white">
+                        Close
+                      </AlertDialogCancel>
+                    </AlertDialogFooter>
+                  </AlertDialogContent>
+                </AlertDialog>
+              </div>
             </div>
           </div>
         </div>
